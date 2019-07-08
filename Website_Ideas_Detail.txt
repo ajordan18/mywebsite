@@ -1,0 +1,15 @@
+Music Section:
+-> 16 Bit GIF of MPC 3000 with pads lighing up
+-> Audio Clips of beats, organized by mood (dark, chill, modern, etc.)
+
+Coding Secion:
+-> 16 Bit GIF of command terminal with flashing white square cursor
+-> Link to YouTube Comp Sci Playlist
+
+Art Section:
+-> 16 Bit Gifs for other site items:
+--- Rotating Clock (for date and time JavaScript function)
+--- Avatar of me waving/doing action (overworld pokemon template)
+--- Calculator pads pressed
+
+

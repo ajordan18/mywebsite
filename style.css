@@ -1,0 +1,18 @@
+/* Style Sheet for index.html */
+
+h3 {
+    color: red;
+    text-align: center;
+}
+
+body {
+    color: darkblue;
+    padding: 5px; 
+}
+
+li {
+    font-weight: bold; 
+}
+
+
+

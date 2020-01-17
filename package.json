@@ -1,0 +1,23 @@
+{
+  "name": "ajordan18.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajordan18/ajordan18.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajordan18/ajordan18.github.io/issues"
+  },
+  "homepage": "https://github.com/ajordan18/ajordan18.github.io#readme",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

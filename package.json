@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/ajordan18/ajordan18.github.io/issues"
   },
-  "homepage": "https://github.com/ajordan18/ajordan18.github.io#readme",
+  "homepage": "https://github.com/ajordan18/ajordan18.github.io",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }

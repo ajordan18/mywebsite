@@ -5,6 +5,7 @@ Music Section:
 Coding Secion:
 -> 16 Bit GIF of command terminal with flashing white square cursor
 -> Link to YouTube Comp Sci Playlist
+-> JavaScript calculator/program
 
 Art Section:
 -> 16 Bit Gifs for other site items:

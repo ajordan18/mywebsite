@@ -1,6 +1,6 @@
 console.log("Hello World");
 
-function alert(){
+function myAlert(){
     console.log('THIS IS AN ALERT!');
 }; 
 
@@ -9,5 +9,8 @@ function buttonAlert(){
 };
 
 function add(){
-    console.log(1 + 2 + 3);
+    let num1 = Number(document.getElementById("num1").value);
+    let num2 = Number(document.getElementById("num2").value);
+    let result = num1 + num2;
+    console.log(result);
 };

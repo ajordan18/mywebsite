@@ -12,14 +12,82 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <!--Chart.js CND-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
     </head>
 
     <body>
         
         <h2>Bio / About Me</h2>
         <!--------------------->
-        
+        <div>
+            <p>
+               I am an aspiring computer scientists. My main goal is to help society in a way <br>
+               that interest me. I want to be able to help make ideas come to life through the <br>
+               usage of cutting edge technology.  
+            </p>
+                <br>
+            <p>
+                Some of my favoriate artist include:
+                <ul>
+                    <li>Kendrick Lamar</li>
+                    <li>Run The Jewels</li>
+                    <li>The Weeknd</li>
+                    <li>J. Cole</li>
+                    <li>Daft Punk</li>
+                    <li>Nas</li>
+                    <li>Jay-Z</li>
+                    <li>Common</li>
+                    <li>Kanye West</li>
+                    <li>Eminem</li>
+                </ul>
+                    <br>
+            </p>
+        </div>
 
+
+        <div>
+            <canvas id="myChart" width="400" height="400"></canvas>
+            <script>
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                    datasets: [{
+                        label: '# of Votes',
+                        data: [12, 19, 3, 5, 2, 3],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    }
+                }
+            });
+            </script>
+        </div>
         <!--------------------->
 
 
@@ -29,31 +97,31 @@
             <h3>Music</h3>
                 <h4>Chill</h4>
                 <audio controls>
-                    I<source src = "Blue_Alert_Chill.wav" type="audio/wav">
+                    <source src = "Blue_Alert_Chill.wav" type="audio/wav">
                         Your browser does not support the audio element.
                 </audio>
 
                 <h4>Sad</h4>
                 <audio controls>
-                    I<source src = "When_My_Heart_Finds_Christmas_Samples2_S14_B1_Sad.wav" type="audio/wav">
+                    <source src = "When_My_Heart_Finds_Christmas_Samples2_S14_B1_Sad.wav" type="audio/wav">
                         Your browser does not support the audio element.
                 </audio>
 
                 <h4>Dark</h4>
                 <audio controls>
-                    I<source src = "Prague_Festival_B1_Dark.wav" type="audio/wav">
+                    <source src = "Prague_Festival_B1_Dark.wav" type="audio/wav">
                         Your browser does not support the audio element.
                 </audio>
 
                 <h4>Uplifting</h4>
                 <audio controls>
-                    I<source src = "Moods_S5_B1_Uplifting.wav" type="audio/wav">
+                    <source src = "Moods_S5_B1_Uplifting.wav" type="audio/wav">
                         Your browser does not support the audio element.
                 </audio>
 
                 <h4>Freestyle</h4>
                 <audio controls>
-                    I<source src = "Now_You_Know_Freestyle.wav" type="audio/wav">
+                    <source src = "Now_You_Know_Freestyle.wav" type="audio/wav">
                         Your browser does not support the audio element.
                 </audio>
 
@@ -71,6 +139,10 @@
 
         <h2>Coding</h2>
         <!-------------------->
+        <div class="center">
+            <img src="coding_img.gif">
+        </div>
+
         <div>
             <button type="button" class="btn btn-primary" onclick="buttonAlert()">
                 Primary

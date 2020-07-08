@@ -5,8 +5,13 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    color: grey;
+    padding: 20px;
+}
+
 body {
-    color: darkblue;
+    color: blue;
     padding: 5px; 
 }
 
